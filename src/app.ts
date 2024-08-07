@@ -1,6 +1,7 @@
 import express from "express";
-import smsRoutes from "./routes/sms"
+import smsRoutes from "./routes/sms";
 
+require("dotenv").config();
 
 const app = express();
 

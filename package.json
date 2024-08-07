@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.ts"
+    "start": "nodemon --watch 'src/**/*' -e 'ts' --exec 'ts-node' src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/hadimojak/iefa#readme",
   "dependencies": {
     "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2"
   },
   "devDependencies": {
