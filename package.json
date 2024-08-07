@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/hadimojak/iefa/issues"
   },
-  "homepage": "https://github.com/hadimojak/iefa#readme"
+  "homepage": "https://github.com/hadimojak/iefa#readme",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.1.0",
+    "ts-node": "^10.9.2"
+  }
 }
