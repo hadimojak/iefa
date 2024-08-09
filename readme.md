@@ -1,6 +1,12 @@
-setup depenceies: npm i
+setup depenceies: 
+```
+npm i
+```
 
-run the server: npm start
+run the server: 
+```
+npm start
+```
 
 
 privoders: behsa and enyak
