@@ -1,1 +1,6 @@
-{"providers":[{"name":"behsa","status":1},{"name":"enyak","status":0}]}
+{
+  "providers": [
+    { "name": "behsa", "status": 1 },
+    { "name": "enyak", "status": 0 }
+  ]
+}
