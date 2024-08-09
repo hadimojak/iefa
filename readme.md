@@ -7,3 +7,8 @@ result code: {
     20:status code is ilegal,
     0:status is set correctly
 }
+
+privoders: behsa and enyak
+
+
+statusCode is 0 for inactive and 1 for active
