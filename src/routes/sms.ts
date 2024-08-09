@@ -1,11 +1,13 @@
 import { Router } from "express";
-import { sendSMS } from "../services/smsService";
+import { sendSMS, setActiveProvider } from "../services/smsService";
 
 const router = Router();
 
 router.post("/setActiveProvider", async (req, res) => {
-  //provider 1 selceted
-  res.send("OK").status(200);
+  const result = await setActiveProvider(req.body);
+  console.log({ result });
+
+  res.send(result).status(200);
 });
 
 router.post("/sendSms", async (req, res) => {
